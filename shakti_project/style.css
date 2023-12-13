@@ -1,0 +1,30 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 7.5px;
+}
+form input{
+    padding: 0.4rem 3px;
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 290px;
+}
+form textarea{
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 290px;
+}
+input[type="submit"]{
+    transition: .3s;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
